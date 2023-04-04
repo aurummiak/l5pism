@@ -1,0 +1,6 @@
+
+interface RandomOut {
+void addWords(in string word);
+string getLetters(in string res);
+};
+

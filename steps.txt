@@ -1,0 +1,27 @@
+1.Описание и трансляция объектов
+"C:\Program Files\Java\jdk1.8.0_271\bin\idlj.exe" -fall RandomOut.idl
+2. start orbd
+"C:\Program Files\Java\jdk1.8.0_271\bin\orbd.exe" -ORBInitialPort 900 -ORBInitialHost localhost
+3. start server
+cd C:\Users\Ariana\ВУЗ\ПИСЛ\l5\out\production\l5
+java Server -ORBInitialPort 900 -ORBInitialHost localhost
+4. start client
+cd C:\Users\Ariana\ВУЗ\ПИСЛ\l5\out\production\l5
+java Client -ORBInitialPort 900 -ORBInitialHost localhost
+D:\java8\bin\orbd.exe
+
+
+1.Описание и трансляция объектов
+"C:\Program Files\Java\jdk-19\bin\idlj.exe" -fall RandomOut.idl
+2. start orbd
+"C:\Program Files\Java\jdk-19\orbd.exe" -ORBInitialPort 900 -ORBInitialHost localhost
+3. start server
+cd D:\l5\out\production\l5
+java Server -ORBInitialPort 900 -ORBInitialHost localhost
+4. start client
+cd D:\l5\out\production\l5
+java Client -ORBInitialPort 900 -ORBInitialHost localhost
+
+
+D:\java8\bin\idlj.exe -fall  RandomOut.idl
+D:\java8\bin\orbd.exe 
